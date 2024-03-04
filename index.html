@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="main-nav container flex">
-            <a href="#" class="company-logo">
+            <a href="#" onclick="reload()" class="company-logo">
              <img src="./assets/news_logo.jfif" alt="news_logo">   
             </a>
             <div class="nav-links">
@@ -22,7 +22,7 @@
                 </ul>
             </div>
             <div class="search-bar flex">
-                <input type="text" class="news-input" placeholder="e.g Science">
+                <input type="text" class="news-input" id="search-text" placeholder="e.g Science">
                 <button class="search-button" id="search-button">Search</button>
             </div>
         </div>
