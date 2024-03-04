@@ -57,11 +57,14 @@ nav{
 .hover-link{
     cursor: pointer;
 }
-/* .hover-link:hover{
-    color: var(--seconday-text-color);
-} */
 .hover-link:hover{
+    color: var(--seconday-text-color);
+}
+.hover-link:active{
     color: red;
+}
+.nav-item.active{
+    color: var(--accent-color);
 }
 .search-bar{
     height: 32px;
